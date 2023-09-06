@@ -1,4 +1,5 @@
 class Solution {
+    //TC:O(n)   SC:O(n)
     public boolean isValid(String s) {
         if(s == null || s.length() == 0)  return true;
         Stack<Character> st = new Stack<>();
